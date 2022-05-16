@@ -1,0 +1,393 @@
+body {
+    background-color: #406343;
+    background-image: url(bgcolor6.webp);
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(65,78,67, 0.5);
+    box-shadow: #f7f7dd 10px -2px 10px 3px;
+}
+
+.paragraph {
+    font-size: 20px;
+    font-family: 'Bad Script', cursive;
+    color: white;
+   text-align: justify;
+   padding: 20px;
+}
+
+.madonna {
+    padding: 10px 10px;
+    margin: 10px;
+    align-self: center;
+}
+
+
+ h1 {
+    font-size: 50px;
+    align-items: center;
+    font-family: 'Bad Script', cursive;
+color: #ffffd7;
+} 
+
+.advent {
+    align-self: center;
+}
+
+.animation {
+    animation: flicker 1.5s infinite; /* Параметры анимации */
+  }
+    @keyframes flicker {
+      from { opacity: 1; /* Непрозрачный текст */ }
+      to { opacity: 0.1; /* Прозрачный текст */ }
+      
+}
+
+h2 {
+    font-size: 30px;
+    align-items: center;
+    font-family: 'Bad Script', cursive;
+    background:-webkit-linear-gradient(35deg, #ffffcb, rgb(221, 204, 148));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+     display: none;   
+  
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.calendar {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 9px 19px;
+}
+
+.calendar:hover {
+    background: rgb(255, 77, 77);
+    background: radial-gradient(circle,rgb(221, 28, 28)73%, rgba(0,0,0,1) 100%);
+    padding: 10px 20px;
+}
+
+.days {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(deer-merry-christmas.gif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgb(15, 1, 1) 5px -4px 10px 1px;
+    margin: 16px 24px;
+    padding: 16px;
+    width: 176px;
+    height: 240px;
+    border-radius: 20px;
+}
+
+.days:hover {
+    background-image: url(merry-christmas-happy-christmas.gif);
+    transition: ease 2s;
+    box-shadow: white 5px -2px 10px 1px;
+}
+
+
+h4 {
+    font-size: 24px;
+    color:  rgb(37,59,32);
+    background-color:rgb(246,238,201, 0.4);
+    padding: 1px 8px;
+    border-radius: 20px;
+    font-family: 'Bad Script', cursive;
+    text-shadow: black 1px 1px 1px;
+}
+
+
+button {
+     margin-top: 40px;
+     padding: 5px;
+     border-radius: 10px;
+     background: rgb(37,59,32);
+     background: radial-gradient(circle, rgba(37,59,32,1) 53%, rgba(0,0,0,1) 100%);
+     color: white;
+     font-family: 'Bad Script', cursive;
+     font-size: 14px;
+}
+
+button:hover {
+    background: rgb(12,73,3);
+background: radial-gradient(circle, rgba(12,73,3,1) 73%, rgba(0,0,0,1) 100%);
+padding: 10px;
+}
+
+.decoration {
+    font-size: 14px;
+    background-color: rgb(37,59,32, 0.7);
+    font-family: 'Bad Script', cursive;
+    color: whitesmoke;
+    text-shadow: black 1px 1px 1px;
+    padding: 0px 12px ;
+    margin: 0px 1.6px 4px 1.6px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.new  {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+}
+.last {
+    display: flex;
+    justify-content: end;
+    margin-left: 50px;
+}
+
+#up {
+    background-image: url(up.png);
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 25px;
+    background-color:rgb(246,238,201, 0.1);
+    
+}
+
+.name {
+    text-decoration: none;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.insta {
+    opacity: 0.7;
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+@media all and ( max-width: 1000px) {
+    .days {
+        margin: 16px 10px;
+        padding: 7px;
+        width: 150px;
+        height: 220px;
+        border-radius: 20px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;  
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .imgOne {
+        width: 500px;
+        height: 800px;
+        align-self: center;
+    }
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .imgTwo {
+        width: 700px;
+        height: 360px;
+    }
+
+    .imgCenter {
+        align-self: center;
+    }
+
+    h1 {
+    font-size: 22px;
+    padding: 8px;
+    }
+
+.days {
+    margin: 15px 5px;
+    padding: 5px;
+    width: 120px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;  
+    margin: 5px;
+    padding: 8px;
+}
+
+.name {
+    font-size: 10px;
+}
+}
+
+@media all and (max-width: 800px) {
+    .days {
+        margin: 16px 10px;
+        padding: 7px;
+        width: 150px;
+        height: 220px;
+        border-radius: 20px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;  
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .imgOne {
+        width: 220px;
+        height: 300px;
+        align-self: center;
+    }
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .imgTwo {
+        width: 700px;
+        height: 360px;
+        align-self: center;
+    }
+
+    .imgCenter {
+        align-self: center;
+    }
+
+
+}
+
+
+
+
+@media all and (max-width: 500px) {
+    .imgOne {
+        width: 150px;
+        height: 200px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+       padding: 10px;
+    }
+
+    .imgTwo {
+        width: 320px;
+        height: 240px;
+        align-items: center;
+    }
+
+    .days {
+        margin: 10px 5px;
+        padding: 5px;
+        width: 90px;
+        height: 180px;
+    }  
+
+    .header {
+        padding: 10px;
+    }
+
+    button {
+        margin-top: 50px;
+        padding: 5px 10px;
+        font-size: 10px;
+   }
+
+   h4 {
+    font-size: 13px;
+    padding: 1px 3px;
+}
+.par {
+    font-size: 10px;
+}
+#up {
+    width: 10px;
+    height: 10px;
+}
+
+.decoration {
+    font-size: 10px;
+}
+
+.animation {
+text-align: center;
+font-size: 15px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+}
+
+@media all and (max-width: 280px) {
+    .header {
+        margin: 1px;
+        padding: 10px;
+    }
+
+    .days {
+        margin: 5px 1px;
+        padding: 3px;
+        width: 150px;
+        height: 200px;
+    }
+
+    .imgTwo {
+        width: 100px;
+        height: 80px;
+        align-items: center;
+    }
+
+    .imgCenter {
+        width: 100px;
+        height: 100px;
+    }
+
+    .madonna {
+        padding: 1px 2px;
+        margin: 2px;
+    }
+
+    .info {
+        padding: 2px;
+    }
+
+    .calendar {
+        margin-top: 5px;
+        margin-bottom: 8px;
+        padding: 3px 7px;
+    }
+    .container {
+        flex-wrap: nowrap;
+    }
+}
